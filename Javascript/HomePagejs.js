@@ -1,34 +1,56 @@
-let slidePosition= 0;
-const slides= document.getElementbyClassName('slideshow-container');
-const totalSlides= slides.length;
+// Next/previous controls
+function plusSlides(n) {
+	showSlides(slideIndex += n);
+}
 
-document.getElementById('buttonnext')
-.addEventListener("click", function(){
- 	moveToNextSlide();
-});
-document.getElementById('buttonprev')
-.addEventListener("click", function(){
- 	moveToPrevSlide();
-});
+// Thumbnail image controls
+function currentSlide(n) {
+	showSlides(slideIndex = n);
+}
 
-function updateSlidePosition(){
-	for (let slide of slides){
-		slide.classList.remove('carousel_item--v
-function moveToNextSlide(){
-        function updateSlidePosition();
-	if(slidePosition == totalSlides){
-		slidePosition =0;
+function populateDots() {
+	console.log("populating dots");
+	const container = document.querySelector("#dots-holder");
+	const slidesCount = getSlides().length;
+
+	for (let i = 0; i < slidesCount; i++) {
+		let span = document.createElement("span");
+		span.classList.add("dot");
+		span.setAttribute("onclick", `showSlides(${i})`);
+		container.appendChild(span);
+	}
 }
-	else{
-		slidePosition++;
-}	
+
+function getSlides() {
+	return document.getElementsByClassName("mySlides");
 }
-function moveToPrevSlide(){
-        function updateSlidePosition();
-	if(slidePosition == 0){
-		slidePosition =0;
+
+function showSlides(n) {
+	console.log("Showing Slides", n);
+	let slides = getSlides();
+	let dots = document.getElementsByClassName("dot");
+	// let captionText = document.getElementById("caption");
+
+	if (n >= slides.length) {
+		slideIndex = 0;
+	} else if (n < 0) {
+		slideIndex = slides.length - 1;
+	} else {
+		slideIndex = n;
+	}
+	
+	for (let i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (let i = 0; i < dots.length; i++) {
+		dots[i].classList.remove("active");
+		// dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex].style.display = "block";
+	dots[slideIndex].classList.add("active");
+	// captionText.innerHTML = dots[slideIndex].alt;
 }
-	else{
-		slidePosition--;
-}	
-}
+
+let slideIndex = 0;
+populateDots();
+showSlides(slideIndex);

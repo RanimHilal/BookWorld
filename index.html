@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <!--project_stage3_AbuShamlihRanim_ U21105813 -->
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Book World</title>
+  <link href="Homepagecss2copy.css" rel="stylesheet" type="text/css">
+  
 
-  <link href="https://github.com/RanimHilal/BookWorld/css/Topbar.css" rel="stylesheet" type="text/css">
-  <link href="https://github.com/RanimHilal/BookWorld/css/Homepagecss2.css" rel="stylesheet" type="text/css">
-  <link href="https://github.com/RanimHilal/BookWorld/js_branch/Javascript2.js"  type="text/javascript"> 
 </head>
+
 <body>
-<div class="topbar">
+ <div class="topbar">
     <a><img src="https://ranimhilal.github.io/BookWorld/Images/BookWorldlogo.png" width = "70" height="40" alt = "logo"></a>
   <a class="active" href="index.html">Home</a>
   <a href="https://ranimhilal.github.io/BookWorld/html/Mylists/Mylists.html"> My lists</a>
@@ -21,15 +22,16 @@
     </div>
   <!--input type="text" placeholder="Search.."-->
 <div class="box">
-<section>
-  <article>
-  <h1>Welcome to Book World</h1>
-<p>Find books to your taste. Search, explore and add to your to be read list!.</p></article>
+    <section>
+      <article>
+        <h1>Welcome to Book World</h1>
+        <p>Find books to your taste. Search, explore and add to your to be read list!.</p>
+      </article>
 
 
 
-<table style=" text-align: center;">
-<tr><th><strong><a href="#BookTok">Booktok</a></strong></th>
+     <table style=" text-align: center;">
+<tr><th><strong><a href="https://ranimhilal.github.io/BookWorld/html/BookTok/BookTok.html">Booktok</a></strong></th>
 </tr>
   <tr>
     <td><a href="https://ranimhilal.github.io/BookWorld/html/Books/TheSilentPatient.html"><img src="https://ranimhilal.github.io/BookWorld/Images/Thesilent.jpeg" alt="TheSilentPatient" height=100 width=70></a><a href="https://ranimhilal.github.io/BookWorld/html/Books/TheSilentPatient.html">The Silent Patient</a></td>
@@ -44,7 +46,7 @@
     
   </tr>
 
-<tr><th><strong><a href="#TV">TV Shows and Movies based on books</a></strong></th></tr>
+<tr><th><strong><a href="https://ranimhilal.github.io/BookWorld/html/TvandMovies/TvandMovies.html">TV Shows and Movies based on books</a></strong></th></tr>
   <tr>
     <td><a href="https://ranimhilal.github.io/BookWorld/html/Books/LittleWomen.html"><img class="images"  src="https://ranimhilal.github.io/BookWorld/Images/LittleWoman.jpeg" alt="Little Women" height=100 width=70></a><a href="https://ranimhilal.github.io/BookWorld/html/Books/LittleWomen.html">Little Woman</a> </td>
     
@@ -58,7 +60,7 @@
     
   </tr>
   <tr>
-    <th><strong><a href="#rating">Based on ratings</a></strong></th></tr>
+    <th><strong><a href="https://ranimhilal.github.io/BookWorld/html/Rating_Page">Based on ratings</a></strong></th></tr>
   <tr>
     <td><a href="https://ranimhilal.github.io/BookWorld/html/Books/SonictheHedgehog.html"><img class="images"  src="https://ranimhilal.github.io/BookWorld/Images/Sonic.jpeg" alt="Sonic the Hedgehog" height=100 width=70></a><a href="https://ranimhilal.github.io/BookWorld/html/Books/SonictheHedgehog.html">Sonic the Hedgehog</a> </td>
     
@@ -73,49 +75,50 @@
   </tr>
 </table>
 
-</section>
+    </section>
 
-<div class="slideshow_container">
+    <div class="slideshow_container">
+      <h3>How to enjoy reading?</h3>
+      <div class="mySlides fade">
+        <img src="https://ranimhilal.github.io/BookWorld/Images/headphones.jpg" alt="audio" style="width:70%">
+        <div class="text">Listen to audio book & music</div>
+      </div>
 
-<h3>How to enjoy reading?</h3>
+      <div class="mySlides fade">
+        <img src="https://ranimhilal.github.io/BookWorld/Images/clock.jpg" alt="time" style="width:70%">
+        <div class="text">save time to read</div>
+      </div>
 
-<dive class="mySlides fade">
-    <img src="https://ranimhilal.github.io/BookWorld/Images/headphones.jpg" alt="audio" style="width:70%">
-    <p class="text">Listen to audio book & music</p>
-</div>
+      <div class="mySlides fade">
+        <img class="slide" src="https://ranimhilal.github.io/BookWorld/Images/cart.jpg" alt="shop" style="width:70%">
+        <div class="text">Buy pysical books</div>
+      </div>
 
-<dive class="mySlides fade">
-    <img src="https://ranimhilal.github.io/BookWorld/Images/clock.jpg" alt="time" style="width:70%">
-    <p class="text">save time to read</p>
-</div>
+      <div class="mySlides fade">
+        <img class="slide" src="https://ranimhilal.github.io/BookWorld/Images/dicover.jpg" alt="dicover" style="width:70%">
+        <div class="text">Discover what you like</div>
+      </div>
 
-<dive class="mySlides fade">
-    <img src="https://ranimhilal.github.io/BookWorld/Images/cart.jpg" alt="shop" style="width:70%">
-    <p class="text">Buy pysical books</p>
-</div>
+      <div class="mySlides fade">
+        <img class="slide" src="https://ranimhilal.github.io/BookWorld/Images/date.jpg" alt="days" style="width:70%">
+        <div class="text">Don't take too long in reading</div>
+      </div>
 
-<dive class="mySlides fade">
-    <img src="https://ranimhilal.github.io/BookWorld/Images/dicover.jpg" alt="dicover" style="width:70%">
-    <p class="text">Discover what you like</p>
-</div>
+      <a class="prev round" id="buttonprev" onclick="plusSlides(-1)">❮</a>
+      <a class="next round" id="buttonnext" onclick="plusSlides(1)">❯</a>
 
-<dive class="mySlides fade">
-    <img src="https://ranimhilal.github.io/BookWorld/Images/date.jpg" alt="days" style="width:70%">
-    <p class="text">Don't take too long in reading</p>
-</div>
+      <br>
 
-<div>
-  <button class="moving round" id= "buttonnext" onclick="plusSlides(-1)">❮</button>
-  <button class="moving round" id= "buttonprev" onclick="plusSlides(1)" >❯</button>
-</div>
-<br>
+      <div id="dots-holder" style="text-align:center">
+        <!-- <span class="dot" onclick="showSlides(1)"></span>
+        <span class="dot" onclick="showSlides(2)"></span>
+        <span class="dot" onclick="showSlides(3)"></span> -->
+      </div>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-</div>
+    </div>
 
+  </div>
+  <script src="HomePagejs.js" type="text/javascript"></script>
 </body>
+
 </html>
