@@ -3,5 +3,6 @@ function checkFunction() {
   if (!x.checkValidity()) {
     document.getElementById("demo").innerHTML = "Please complete the fields given.";
   } else {
+    document.getElementById("demo").innerHTML = "Your successfully logged in";
   } 
 } 
