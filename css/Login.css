@@ -5,6 +5,22 @@ body {
 }
 
 .login {
+    padding: 20pt;
+    background-color: #E1ECE1;
+    border-radius: 25px;
+    margin: 50px;
+    margin-top: 50px;
+    width: 50%;
+    position: relative;
+    left: 190px;
+    right: 50px;
+ }
+
+input, label, .ent {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
   margin: 5px 0;
   opacity: 0.85;
   display: inline-block;
@@ -45,4 +61,16 @@ button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  paddin
+  padding: 8px 30px;
+  font-size: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
