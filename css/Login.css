@@ -7,44 +7,5 @@ body {
 .login {
     padding: 20pt;
     background-color: #E1ECE1;
-    border-radius: 25px;
-    margin: 50px;
-    margin-top: 50px;
-    width: 50%;
-    position: relative;
-    left: 190px;
-    right: 50px;
- }
-
-  line-height: 20px;
-}
-
-
-.faceb {
-  background-color: #3B5998;
-  color: white;
-  width: 50%;
-}
-
-.twitter {
-  background-color: #55ACEE;
-  color: white;
-  width: 50%;
-}
-
-.google {
-  background-color: #dd4b39;
-  color: white;
-  width: 50%;
-}
-
-.or {
-  text-align: center;
-  to
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
 
   
