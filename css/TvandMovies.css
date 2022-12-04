@@ -31,9 +31,6 @@ body {
   color: black;
 }
 
-.topbar .icon {
-  display: none;
-}
 
 .topbar.responsive a {
     float: none;
