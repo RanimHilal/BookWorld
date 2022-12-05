@@ -13,7 +13,7 @@
               text-align: center;}
 
 
-       a:link { color: Blue;}
+       a:link { color: red;}
        a:visited {color: red;}
        a:hover {color: purple;}
        a:active {color: blue;}
