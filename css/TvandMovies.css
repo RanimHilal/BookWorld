@@ -17,18 +17,6 @@ body {
   display: block;
   color: #f2f2f2;
   font-size: 17px;
-  text-decoration: none;
-  padding: 15px 20px;
-}
-
-.topbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topbar a.active {
-  background-color: #E1ECE1;
-  color: black;
 }
 
 .topbar.responsive a {
