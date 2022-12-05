@@ -1,5 +1,5 @@
          function myFunction(){
-          let data = "";  let name = document.getElementById("UserName").value
+          let data = "";  let name = document.getElementById("userName").value
           let book = document.getElementById("bookName").value
           let comment = document.getElementById("userComment").value
          
