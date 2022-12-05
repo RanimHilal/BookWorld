@@ -73,16 +73,16 @@ body{
 
 
     .button {display: inline-block;
-        padding: 8px 20px;
+        padding: 8px 25px;
         font-size: 12px;
         cursor: pointer;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         outline: none;
         color: #fff;
         background-color: #4CAF50;
         border: none;
-        border-radius: 8px;}
+        border-radius: 10px;}
             
     .button:hover {background-color: #3e8e41}
 
