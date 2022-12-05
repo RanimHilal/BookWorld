@@ -38,16 +38,11 @@ a:visited{
   color: black;
 }
 
-.topbar .icon {
-  display: none;
-}
-
   .topbar.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-
 
 .topbar .search-container button {
   float: right;
