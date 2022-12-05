@@ -76,13 +76,13 @@ body{
         padding: 8px 25px;
         font-size: 12px;
         cursor: pointer;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         outline: none;
         color: #fff;
         background-color: #4CAF50;
         border: none;
-        border-radius: 10px;}
+        border-radius: 8px;}
             
     .button:hover {background-color: #3e8e41}
 
@@ -119,7 +119,7 @@ body{
 
 .dropbtn {
   background-color: #04AA6D;
-  color: white;
+  color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
