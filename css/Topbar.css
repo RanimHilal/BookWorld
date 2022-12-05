@@ -32,6 +32,16 @@ a:visited{
   background-color: #ddd;
   color: black;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  
+}
 
 .topbar a.active {
   background-color: #E1ECE1;
