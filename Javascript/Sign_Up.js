@@ -1,4 +1,4 @@
-document.getElementById("myinput").oninvalid = function() {myFunction()};
+document.getElementById("myInput").oninvalid = function() {myFunction()};
 function myFunction() {
-  alert("You must fill out the form!");
+  alert("You must fill out the form of sign up page!");
 }
