@@ -154,7 +154,7 @@ body{
    height: 50px;
   width: 100%;
   background-color: #333;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -165,5 +165,5 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #3e8e49;}
    
