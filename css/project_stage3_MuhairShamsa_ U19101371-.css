@@ -109,6 +109,31 @@ body {
 }
 
 
+[class^="cursor"]{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-60%,-60%);
+    border-radius: 50%;
+    z-index: 1000; 
+   pointer-events: none;
+
+}
+
+
+
+.box:hover ~ .cursor-outer{
+
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    mix-blend-mode: difference;
+
+
+}
+
+
 .footer {
   position: fixed;
   left: 0;
