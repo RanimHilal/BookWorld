@@ -3,5 +3,5 @@ function myFunction() {
   alert("You must fill out the form!");
 }
 function myFunction() {
-  alert("You must fill out the form!");
+  alert("You must fill the out the form!");
 }
