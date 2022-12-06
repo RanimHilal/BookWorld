@@ -4,5 +4,5 @@ function myFunction() {
 }
 
 function myFunction() {
-  alert("You must fill out the form of the sign up page !");
+  .alert("You must fill out the form of the sign up page!");
 }
